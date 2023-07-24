@@ -56,12 +56,9 @@ def Machine(Wanted,current_water,current_milk,current_cofee,current_money) :
     product = data.MENU[Wanted]
     product_cost=product['cost']
     quantities = product['ingredients']
-    if 'water' in quantities:
-        product_water = quantities['water']
-    if 'milk' in quantities:
-        product_milk = quantities['milk']
-    if 'coffee' in quantities:
-        product_coffee = quantities['coffee']
+    product_water = quantities['water']
+    product_milk = quantities['milk']
+    product_coffee = quantities['coffee']
     ## see if the current uantities are suffissiants
     suffisiant=is_suffisiant(current_water=current_water,current_milk=current_milk,current_cofee=current_cofee,wanted_water=product_water,wanted_milk=product_milk,wanted_cofee=product_coffee)
     if suffisiant==True :
