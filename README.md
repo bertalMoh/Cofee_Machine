@@ -1,2 +1,4 @@
 # Cofee_Machine
-A Cofee Machine Software using python
+<h1>Introduction</h1>
+<p>A Cofee Machine Software using python</p>
+<h1>programme Screenshot</h1>
